@@ -2,6 +2,15 @@
 
 A simple Express + PostgreSQL API for trip data.
 
+<div>
+    <a href="https://www.loom.com/share/c0618b2c9c504e6a90d0d388628951ed">
+      <p>Lab 5 Walkthrough  - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/c0618b2c9c504e6a90d0d388628951ed">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/c0618b2c9c504e6a90d0d388628951ed-7ff5614bbf74e734-full-play.gif#t=0.1">
+    </a>
+  </div>
+
 ## Features
 - REST endpoints for trips
 - PostgreSQL connection with environment-based configuration
