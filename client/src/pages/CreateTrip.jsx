@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import './CreateTrip.css'
 
-const CreateTrip = () => {
+const CreateTrip = (props) => {
 
-    const [trip, setTrip] = useState({id: 0, title: "", description: "", img_url: "", num_days: 0, start_date: "", end_date: "", total_cost: 0.0 })
+    const [trip, setTrip] = useState({id: 0, title: "", description: "", img_url: "", num_days: 0, start_date: "", end_date: "", total_cost: 0.0, username: props.user.username })
 
     const handleChange = (event) => {
         const {name, value} = event.target;
@@ -26,7 +26,7 @@ const CreateTrip = () => {
             body: JSON.stringify(trip)
         }
 
-        await fetch('/api/trips', options)
+        await fetch(`${props.api_url}/api/trips`, options)
 
         window.location.href = '/'
     }
