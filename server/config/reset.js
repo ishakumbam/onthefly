@@ -20,7 +20,7 @@ const createTripsTable = async () => {
       num_days integer NOT NULL,
       start_date date NOT NULL,
       end_date date NOT NULL,
-      total_cost money NOT NULL
+      total_cost money NOT NULL 
     );
   `;
   try {
