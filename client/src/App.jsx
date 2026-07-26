@@ -13,7 +13,7 @@ import AddUserToTrip from './pages/AddUserToTrip';
 import Login from './pages/Login';
 import Avatar from './components/Avatar';
 
-const API_URL = 'http://localhost:3001'
+const API_URL = import.meta.env.PROD ? '{YOUR_SERVER_URL}' : '/api'
 
 const App = () => {
 
