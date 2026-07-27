@@ -3,11 +3,11 @@
 A simple Express + PostgreSQL API for trip data.
 
 <div>
-    <a href="https://www.loom.com/share/99d3240772024c8b832c3e4740f200b4">
-      <p>On The Fly - 18 July 2026 - Watch Video</p>
+    <a href="https://www.loom.com/share/9fd957b7060c4b76991cfd8699641516">
+      <p>Deploying on render - Lab 9 - Watch Video</p>
     </a>
-    <a href="https://www.loom.com/share/99d3240772024c8b832c3e4740f200b4">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/99d3240772024c8b832c3e4740f200b4-98026749e38df62c-full-play.gif#t=0.1">
+    <a href="https://www.loom.com/share/9fd957b7060c4b76991cfd8699641516">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/9fd957b7060c4b76991cfd8699641516-09c8daf62c579d2c-full-play.gif#t=0.1">
     </a>
   </div>
 
