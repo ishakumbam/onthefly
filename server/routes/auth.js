@@ -42,4 +42,16 @@ router.get(
     })
 )
 
+// server/config/auth.js
+console.log('AUTH DEBUG:', {
+  clientID: process.env.GITHUB_CLIENT_ID ? 'SET' : 'MISSING',
+  clientSecret: process.env.GITHUB_CLIENT_SECRET ? 'SET' : 'MISSING',
+})
+
+const options = {
+    clientID: process.env.GITHUB_CLIENT_ID,
+    clientSecret: process.env.GITHUB_CLIENT_SECRET,
+    callbackURL: 'https://server-m46y.onrender.com/auth/github/callback'
+}
+
 export default router

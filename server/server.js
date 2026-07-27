@@ -52,16 +52,6 @@ app.use('/api/users-trips', userTripRoutes)
 
 const PORT = process.env.PORT || 3001
 
-console.log('ENV CHECK:', {
-  clientID: process.env.GITHUB_CLIENT_ID ? 'SET' : 'MISSING',
-  clientSecret: process.env.GITHUB_CLIENT_SECRET ? 'SET' : 'MISSING',
-  pgHost: process.env.PGHOST || 'MISSING',
-  pgUser: process.env.PGUSER ? 'SET' : 'MISSING',
-  pgPassword: process.env.PGPASSWORD ? 'SET' : 'MISSING',
-  pgDatabase: process.env.PGDATABASE || 'MISSING',
-  pgPort: process.env.PGPORT || 'MISSING',
-})
-
 const server = app.listen(PORT, () => {
     if (!server.address()) {
         console.error(`⚠️ Failed to bind to port ${PORT} — something else is already using it.`)
